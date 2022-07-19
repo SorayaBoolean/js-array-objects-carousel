@@ -31,7 +31,7 @@
 
 .previous {
     position: absolute;
-    top: 95%;
+    top: 80%;
     right: 90%;
     width: 40px;
     height: 40px;
@@ -43,8 +43,8 @@
 
 .next {
     position: absolute;
-    top: 95%;
-    right: 10%;
+    top: 80%;
+    right: 5%;
     width: 40px;
     height: 40px;
     background-color: rgba(255, 255, 255, .5);
@@ -55,4 +55,23 @@
 
 .item.show {
     display: block;
+}
+.hidden {
+    display: none;
+}
+
+.thumbs-container {
+    height: 200px;
+}
+
+.thumb {
+    width: calc(100% / 5);
+    height: 100%;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.thumb.active {
+    background-color: lightgray;
 }
