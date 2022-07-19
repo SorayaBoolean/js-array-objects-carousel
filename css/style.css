@@ -68,10 +68,12 @@
     width: calc(100% / 5);
     height: 100%;
     background-color: grey;
-    border-radius: 50%;
     display: inline-block;
 }
 
 .thumb.active {
-    background-color: lightgray;
+    border: 1px solid white;
+    border-radius: 50;
+    opacity: 0.5;
+    
 }
